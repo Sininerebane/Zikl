@@ -19,6 +19,7 @@ namespace Zikl
             {
                 Console.WriteLine($" Этот цикл повторяется {i+1}");
             }
+
             Console.ReadKey();
         }
     }
