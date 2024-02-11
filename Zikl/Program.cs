@@ -13,13 +13,13 @@ namespace Zikl
             Console.OutputEncoding = Encoding.UTF8;
             int cyсleNumbers;
             Console.WriteLine("Сколько раз вы хотите, чтобы цикл повториться?");
-            cyсleNumbers= Convert.ToInt32(Console.ReadLine());
+            cyсleNumbers = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < cyсleNumbers; i++)
             {
-                Console.WriteLine($" Этот цикл повторяется {i+1}");
+                Console.WriteLine($" Этот цикл повторяется {i + 1}");
             }
-
+            
             Console.ReadKey();
         }
     }
